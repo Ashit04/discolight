@@ -1,0 +1,58 @@
+body{ 
+    background-color: rgb(10, 10, 10);
+}
+div{
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    color: aliceblue;
+    background-color: black;
+    border: 2px solid rgb(12, 12, 12);
+    justify-content: center;
+    transition: all 1ms ease-in 0s ;
+    animation: colorAnimate 1s ease 0s infinite ;
+    display: inline-block;
+}
+
+
+@keyframes colorAnimate {
+    0%{
+        background-color: rgb(255, 0, 0);
+    }
+    10%{
+        background-color: rgb(248, 146, 5);
+    }
+    20%{
+        background-color: rgb(157, 250, 6);
+    }
+    30%{
+        background-color: rgb(0, 255, 115);
+    }
+    40%{
+        background-color: blue;
+    }
+    50%{
+        background-color: rgb(0, 217, 255);
+    }
+    60%{
+        background-color: rgb(255, 0, 255);
+    }
+    70%{
+       background-color: rgb(255, 0, 128);
+    }
+    80%{
+        background-color: brown;
+    }
+    90%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: rgb(239, 147, 8);
+    }
+    
+    
+}
+div:hover{
+    background-color: blueviolet;
+}
